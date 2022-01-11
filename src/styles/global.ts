@@ -1,14 +1,14 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root{
-        --background: #F0F2F5
-        --red: #e52e4d
-        --blue: #5429cc
-        --blue-light: #6933ff
-        --text-title #363f5f
-        --text-body #969cb3
-        --shape: #ffffff
+        --background: #F0F2F5;
+        --red: #e52e4d;
+        --blue: #5429cc;
+        --blue-light: #6933ff;
+        --text-title: #363f5f;
+        --text-body: #969cb3;
+        --shape: #ffffff;
     }
     
     *{
@@ -19,11 +19,11 @@ export const GlobalStyle = createGlobalStyle`
 
     html {
         @media (max-width:1080px){
-            font-size: 93.75% // 15px
+            font-size: 93.75%; // 15px
         }
 
         @media (max-width:720px){
-            font-size: 87.5% // 14px
+            font-size: 87.5%; // 14px
         }
     }
     body,input,textarea,button {
@@ -49,4 +49,4 @@ export const GlobalStyle = createGlobalStyle`
         cursor: not-allowed;
     }
 
-`
+`;
