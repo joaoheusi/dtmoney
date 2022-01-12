@@ -41,7 +41,8 @@ export function NewTransactionModal({
             onClick={() => {
               setType("deposit");
             }}
-            isActive={type === 'deposit'}
+            isActive={type === "deposit"}
+            activeColor="green"
           >
             <img src={incomeImg} alt="" />
             <span>Entrada</span>
@@ -51,7 +52,8 @@ export function NewTransactionModal({
             onClick={() => {
               setType("withdraw");
             }}
-            isActive={type === 'withdraw'}
+            isActive={type === "withdraw"}
+            activeColor="red"
           >
             <img src={outcomeImg} alt="" />
             <span>Saída</span>
